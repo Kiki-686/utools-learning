@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+
+.content h1{
+    background: #fff;
+    padding: 20px;
+    margin: 0;
+}
+.content h2{
+    background: #e0e0e0;
+    padding: 8px 20px;
+    font-size: 1.2em;
+    margin: 0;
+    color: #a0a0a0;
+    border-bottom: 1px #fff dashed;
+}
+.content ul{
+    list-style: none;
+    /* background: #f5f5f5; */
+    margin: 0;
+    padding: 0;
+}
+
+
+.phonetic{
+    background: #fff;
+    padding: 8px 20px;
+    margin: 0;
+}
+
+.content ul li{
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    display: inline-flex;
+    cursor: pointer;
+}
+.content ul li:hover{
+    background: #e2e2e2;
+}
+
+.content .li-favicon{
+    width: 56px;
+    line-height: 100%;
+}
+
+.li-favicon img{
+    width: 28px;
+    margin: 14px;
+}
+
+.li-content{
+    height: 56px;
+    width: 90%;
+    padding: 3px 0px;
+}
+
+.li-name{
+    height: 20px;
+    color: #000;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.li-order{
+    height: 25px;
+    color: #949494;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.selected{
+    background: #efefef;
+    background-image: url(copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 45px 45px;
+}
+
+.setting{
+    display: none;
+    background: #E6EAED;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.setting h1{
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: left;
+}
+.setting button{
+    background-image: url(check.png);
+    width: 48px;
+    z-index: 99;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48px;
+    margin: 8px 8px 0 0;
+    float: right;
+    border-radius: 8px;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer !important;
+}
+.setting button:hover{
+    opacity: 0.5;
+    background-size: 40px 40px;
+}
+
+.setting textarea{
+    display: block;
+    width: 98%;
+    padding: 1%;
+    margin: 0 auto;
+    border: solid 1px #a0a0a0;
+    height: 200px;
+    font-size: 14px;
+    border-left: 0;
+    border-right: 0;
+}
+.click-showCoinfigPage{
+    background-image: url(set-button.png);
+    width: 40px;
+    height: 40px;
+    z-index: 99;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    right: 0px; 
+    bottom: 0px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.click-showCoinfigPage:hover{
+    opacity: 1;
+    background-size: 40px 40px;
+}
+.click-content:hover{
+    opacity: 0.5;
+    background-size: 40px 40px;
+}
+.click-content{
+    background-image: url(close.png);
+    width: 48px;
+    z-index: 99;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48px;
+    margin: 8px 8px 0 0;
+    float: right;
+    border-radius: 8px;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer !important;
+}
+.detail{
+    display: contents;
+    /* background: #E6EAED; */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.detail h1{
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: left;
+}
+.detail table
+{
+    border-collapse:collapse;
+    width:100%;
+}
+.detail table, th, td
+{
+    border: 1px solid black;
+}
+
+.close-content:hover{
+    opacity: 0.5;
+    background-size: 40px 40px;
+}
+.close-content{
+    background-image: url(close.png);
+    width: 48px;
+    z-index: 99;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48px;
+    margin: 8px 8px 0 0;
+    position: fixed;
+    top:0;
+    right:5px;
+    border-radius: 8px;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer !important;
+}

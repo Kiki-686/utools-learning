@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <link rel="stylesheet" type="text/css" href="assets/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/layui/css/layui.css"  media="all">
+    <script src="assets/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <ul>
+        </ul>
+        <div title="设置" class="click-showCoinfigPage" onclick="showConfigPage()">
+        </div>
+    </div>
+    <div class="setting">
+        <h1>修改配置</h1>
+        <textarea placeholder="配置文件路径file_path"></textarea>
+        <div class="click-content" onclick="backContent()"></div>
+        <button onclick="saveConfig()"></button>
+    </div>
+    <div class="detail">
+        <div id="data">
+        </div>
+        <div class="close-content" onclick="closeDetail()"></div>
+        <script></script>
+    </div>
+    </div>
+    </div>
+    <script src="assets/index.js"></script>
+    <script src="assets/layui/layui.js"></script>
+</body>
+
+</html>

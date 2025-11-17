@@ -1,0 +1,23 @@
+{
+    "pluginName": "搜索物品",
+    "version": "0.0.8",
+    "author": "Y7 Tester",
+    "description": "搜索物品",
+    "main": "index.html",
+    "preload": "preload.js",
+    "logo": "assets/logo.png",
+    "pluginSetting": {
+        "single": false
+    },
+    "features": [{
+        "code": "searchItem",
+        "explain": "搜索物品",
+        "cmds": [
+            "ss",
+            {
+                "type": "over",
+                "label": "搜索物品"
+            }
+        ]
+    }]
+}
